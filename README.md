@@ -113,8 +113,9 @@ https://skillbox.ru/media/code/yazyk-razmetki-markdown-shpargalka-po-sintaksisu-
 https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c
 
 ## Статусы файлов в Git
-- untracked - статусом untracked помечается файл, о существовании которого Git знает, но не следит за изменениями в нём. Этот статус — противоположность tracked, в который попадают все файлы, отслеживаемые Git.
-- staged - файл переходит в статус staged после выполнения git add.
+- git status - команда для проверки статусов файлов
+- untracked (англ. «неотслеживаемый») - статусом untracked помечается файл, о существовании которого Git знает, но не следит за изменениями в нём. Этот статус — противоположность tracked, в который попадают все файлы, отслеживаемые Git.
+- staged - файл переходит в статус staged после выполнения git add. Когда совсем новый файл попадает в staging area (от англ. stage — «сцена», «этап» и area — «область»), перед его названием указывается new file
 - modified - статус modified означает, что файл был изменён.
 
 https://practicum.yandex.ru/trainer/git-basics/lesson/860e0bf4-ebd6-4e13-87fa-f76d92cfd11f/
