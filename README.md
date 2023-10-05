@@ -14,7 +14,7 @@
 - [Статусы файлов в Git](#Статусы-файлов-в-Git)
 - [Порядок создания проекта на GitHub](#порядок-создания-проекта-на-GitHub)
 
-https://practicum.yandex.ru/profile/git-basics/
+https://practicum.yandex.ru/profile/git-basics/ <br>
 https://github.com/Kapablas/git-info
 
 ## VCS
