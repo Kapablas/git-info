@@ -123,7 +123,7 @@ https://habr.com/ru/articles/652867/
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+  staged    -- "git commit"     --> tracked/comitted;
 
 %% стрелка без текста для примера: 
   A --> B;
@@ -135,6 +135,7 @@ graph LR;
 - git status - команда для проверки статусов файлов
 - untracked (англ. «неотслеживаемый») - статусом untracked помечается файл, о существовании которого Git знает, но не следит за изменениями в нём. Этот статус — противоположность tracked, в который попадают все файлы, отслеживаемые Git.
 - staged - файл переходит в статус staged после выполнения git add. Когда совсем новый файл попадает в staging area (от англ. stage — «сцена», «этап» и area — «область»), перед его названием указывается new file
+- tracked — это противоположность untracked. Оно довольно широкое по смыслу: в него попадают файлы, которые уже были зафиксированы с помощью git commit, а также файлы, которые были добавлены в staging area командой git add. То есть все файлы, в которых Git так или иначе отслеживает изменения.
 - modified - статус modified означает, что файл был изменён.
 
 https://practicum.yandex.ru/trainer/git-basics/lesson/860e0bf4-ebd6-4e13-87fa-f76d92cfd11f/
