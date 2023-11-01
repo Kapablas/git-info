@@ -178,6 +178,7 @@ https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c
 
 ### Вставка картинки в README
 ![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+<img src="https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png" alt="альтернативный текст">
 
 - {username} — ваш ник на ГитХабе;
 - {repository} — репозиторий где хранятся картинки;
